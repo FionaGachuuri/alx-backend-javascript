@@ -3,8 +3,11 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
+    const innerTask = true;
+    const innerTask2 = false;
+    if (innerTask === innerTask2) {
+      console.log('Mko na jokes');
+    }
   }
 
   return [task, task2];
