@@ -1,8 +1,7 @@
 export default function getResponseFromAPI() {
   return new Promise(() => {
-    // return new Promise(function(resolve, reject) {} works too
-    // fetch something e.g data and make a request
-    // if it's a success call the resolve function and pass the data
-    // if there's an error call reject and pass the error through
+    // The promise constructor takes a function with two arguments: resolve and reject
+    // The function should call either resolve or reject to indicate success or failure
+    // In this case, we are not resolving or rejecting the promise, so it will remain pending
   });
 }
