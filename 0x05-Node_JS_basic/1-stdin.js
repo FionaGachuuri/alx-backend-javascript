@@ -5,7 +5,7 @@
  * Once the user ends the input stream, a farewell message is printed.
  *
  */
-process.stdout.write('Welcome to ALX, what is your name?\n');
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
 process.stdin.setEncoding('utf8');
 
